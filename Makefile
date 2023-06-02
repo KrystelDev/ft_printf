@@ -6,7 +6,7 @@
 #    By: kryrodri <kryrodri@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/26 11:09:46 by kryrodri          #+#    #+#              #
-#    Updated: 2023/06/01 16:29:40 by kryrodri         ###   ########.fr        #
+#    Updated: 2023/06/02 16:20:13 by kryrodri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,14 +17,14 @@ FLAGS = -Wall -Wextra -Werror
 NAME	= libftprintf.a
 
 # Archivos que uso al compilar
-FUNCTION	=  ft_printf.c
+FUNCTION	=  ft_printf.c ft_itoa.c ft_strlen.c ft_calloc.c ft_strdup.c
 				
 
 # Tenemos que transformar los .c en .o para poder compilar
 OBJS	= $(FUNCTION:.c=.o)
 
 # La libreria
-HEADER	= libftprintf.h
+HEADER	= ft_printf.h
 
 # Se compila el archivo binario (ejecutable).
 all: ${NAME}

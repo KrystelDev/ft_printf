@@ -6,11 +6,11 @@
 /*   By: kryrodri <kryrodri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 00:44:19 by kryrodri          #+#    #+#             */
-/*   Updated: 2023/06/01 16:29:37 by kryrodri         ###   ########.fr       */
+/*   Updated: 2023/06/02 16:12:47 by kryrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 size_t	ft_strlen(const char *s)
 {
