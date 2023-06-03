@@ -17,6 +17,7 @@
 # include <stdlib.h> // malloc y free
 # include <unistd.h> // write
 # include <stdarg.h> // va_list, va_start...
+# include <limits.h>
 
 int	ft_printf(char const *, ...);
 size_t	ft_strlen(const char *s);
