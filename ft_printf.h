@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
-#define FT_PRINTF_H
+# define FT_PRINTF_H
 
 # include <stdio.h> // printf
 # include <stdlib.h> // malloc y free
@@ -19,10 +19,9 @@
 # include <stdarg.h> // va_list, va_start...
 # include <limits.h>
 
-int	ft_printf(char const *, ...);
+int		ft_printf(char const *, ...);
 size_t	ft_strlen(const char *s);
 void	*ft_calloc(size_t num_elements, size_t element_size);
-char	*ft_strdup(char *s);
 char	*ft_itoa(long n);
 
 #endif
