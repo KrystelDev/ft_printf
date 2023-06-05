@@ -17,11 +17,13 @@
 # include <stdlib.h> // malloc y free
 # include <unistd.h> // write
 # include <stdarg.h> // va_list, va_start...
-# include <limits.h>
 
-int		ft_printf(char const *, ...);
 size_t	ft_strlen(const char *s);
 void	*ft_calloc(size_t num_elements, size_t element_size);
 char	*ft_itoa(long n);
+int		ft_printc(int c, int j);
+int		ft_prints(char *str, int j);
+int		ft_printi(int n, int j);
+int		ft_printu(int n, int j);
 
 #endif

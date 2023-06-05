@@ -6,7 +6,7 @@
 #    By: kryrodri <kryrodri@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/26 11:09:46 by kryrodri          #+#    #+#              #
-#    Updated: 2023/06/05 09:53:27 by kryrodri         ###   ########.fr        #
+#    Updated: 2023/06/05 11:34:18 by kryrodri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ FLAGS = -Wall -Wextra -Werror
 NAME	= libftprintf.a
 
 # Archivos que uso al compilar
-FUNCTION	=  ft_printf.c ft_itoa.c ft_strlen.c ft_calloc.c
+FUNCTION	=  ft_printf.c ft_itoa.c ft_strlen.c ft_calloc.c ft_put.c
 				
 
 # Tenemos que transformar los .c en .o para poder compilar

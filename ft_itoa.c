@@ -6,13 +6,10 @@
 /*   By: kryrodri <kryrodri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 15:39:16 by kryrodri          #+#    #+#             */
-/*   Updated: 2023/06/02 20:18:08 by kryrodri         ###   ########.fr       */
+/*   Updated: 2023/06/05 12:41:04 by kryrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "ft_calloc.c"
-// #include "ft_strlen.c"
-// #include "ft_strdup.c"
 #include "ft_printf.h"
 
 static long	ft_nbrlen(long n)
