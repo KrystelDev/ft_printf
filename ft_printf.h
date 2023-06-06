@@ -18,6 +18,7 @@
 # include <unistd.h> // write
 # include <stdarg.h> // va_list, va_start...
 
+int		ft_printf(char const *format, ...);
 size_t	ft_strlen(const char *s);
 void	*ft_calloc(size_t num_elements, size_t element_size);
 char	*ft_itoa(long n);
